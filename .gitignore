@@ -1,3 +1,6 @@
+# Large Datasets
+202310-citibike-tripdata.csv
+
 # Additional
 *.DS_Store
 *.ipynb_checkpoints
