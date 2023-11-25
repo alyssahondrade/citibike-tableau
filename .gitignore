@@ -1,6 +1,7 @@
 # Large Datasets
 202310-citibike-tripdata.csv
 simplified_df.csv
+positive_durations.csv
 
 # Additional
 *.DS_Store
