@@ -3,6 +3,9 @@
 202309-citibike-tripdata.csv
 simplified_df.csv
 positive_durations.csv
+current_month_tripdata.csv
+previous_month_tripdata.csv
+combined_tripdata.csv
 
 # Additional
 *.DS_Store
