@@ -3,13 +3,15 @@ Module 18 Challenge - UWA/edX Data Analytics Bootcamp
 
 Github repository at: [https://github.com/alyssahondrade/citibike-tableau](https://github.com/alyssahondrade/citibike-tableau)
 
+Tableau story at: [https://public.tableau.com/app/profile/alyssa.hondrade/viz/citibike-tableau/NYCCitibikeProgam](https://public.tableau.com/app/profile/alyssa.hondrade/viz/citibike-tableau/NYCCitibikeProgam)
+
 ## Table of Contents
-1. [Introduction]()
-    1. [Goal]()
-	2. [Repository Structure]()
-	3. [Dataset]()
-2. [Analysis]()
-3. [References]()
+1. [Introduction](https://github.com/alyssahondrade/citibike-tableau/tree/main#introduction)
+	1. [Goal](https://github.com/alyssahondrade/citibike-tableau/tree/main#goal)
+	2. [Repository Structure](https://github.com/alyssahondrade/citibike-tableau/tree/main#repository-structure)
+	3. [Dataset](https://github.com/alyssahondrade/citibike-tableau/tree/main#dataset)
+2. [Analysis](https://github.com/alyssahondrade/citibike-tableau/tree/main#analysis)
+3. [References](https://github.com/alyssahondrade/citibike-tableau/tree/main#references)
 
 
 ## Introduction
