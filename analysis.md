@@ -25,9 +25,9 @@ There are 3 categories of "validity" for this analysis.
 1. The 'City Official Map' is the city official requested map, which provides an overview of all the stations for the current and previous month.
 
 This map provides observations regarding program usage in New York City neighbourhoods:
-	- High usage in Manhattan and Brooklyn (particularly the NW area).
-	- Some usage in Queens and Bronx.
-	- No usage in Staten Island (potentially due to lack of stations in this area).
+- High usage in Manhattan and Brooklyn (particularly the NW area).
+- Some usage in Queens and Bronx.
+- No usage in Staten Island (potentially due to lack of stations in this area).
 
 The general pattern is a high concentration in the Manhattan area, dispersing in a radial fashion - the further from Manhattan, the less engagement in the Citibike program.
 
@@ -65,24 +65,24 @@ The map in the 'Phenomena #1 - Trip Validity and Membership' can be toggled to d
 1. The first table on the right, 'Trip Validity vs Membership' denotes the breakdown over the Sep-Oct period.
 
 For "valid" trips:
-	- In September, 97.3% of the trips were valid for both "casual" and "member".
-	- In October, there were more valid "member" trips (97.7%) compared to "member" trips (97.4%). This could be attributed to the "member" types experience and minimal "long" trip percentage (0.2% for both months).
+- In September, 97.3% of the trips were valid for both "casual" and "member".
+- In October, there were more valid "member" trips (97.7%) compared to "member" trips (97.4%). This could be attributed to the "member" types experience and minimal "long" trip percentage (0.2% for both months).
 
 For "short" trips, there are more occurrences amongst "member" types (2.3% average) compared to "casual" (1.4% average). This could be attributed to the fact that there is no cost for "member" types when undocking a bike, whereas "casual" types pay $4.49 each time. This means they could be more willing to undock and dock a bike within a short period.
 
 For "long" trips, "casual" types have more occurrences compared to "member" types, over both months. This could be attributed to lack of user experience, such as:
-	- Lack of familiarity with the overtime costs.
-	- Incorrect docking.
+- Lack of familiarity with the overtime costs.
+- Incorrect docking.
 
 2. The second table on the right, 'Cost of Invalid Trips' denotes the breakdown of the number of trips and cost to the customer.
-	- It is logical that the cost per invalid trip for "short" trips for "casual" types cost $4, since the cost to undock is $4.49. This has cost users a collective $91,066 over the two-month period, simply by undocking and docking a bike without using the bike at all. This could have an impact on user satisfaction and program publicity, for example, causing unnecessary frustration when using the program for the first time.
-	- In terms of "long" trips, "casual" types have paid an average of $53, totalling to $967,493 of overtime fees, whilst "member" types have paid an average of $68, totalling to $771,560 of overtime fees.
-	- It is interesting to note that there were less "long" trips for "casual" types (approximately 28,000) compared to "member" types (approximately 85,000), despite 
-	- It is interesting to note that there were more "long" trips for "casual" types (approximately 18,000) compared to "member" types (approximately 11,000), despite "member" types accruing twice the average trip duration when they do go over time.
+- It is logical that the cost per invalid trip for "short" trips for "casual" types cost $4, since the cost to undock is $4.49. This has cost users a collective $91,066 over the two-month period, simply by undocking and docking a bike without using the bike at all. This could have an impact on user satisfaction and program publicity, for example, causing unnecessary frustration when using the program for the first time.
+- In terms of "long" trips, "casual" types have paid an average of $53, totalling to $967,493 of overtime fees, whilst "member" types have paid an average of $68, totalling to $771,560 of overtime fees.
+- It is interesting to note that there were less "long" trips for "casual" types (approximately 28,000) compared to "member" types (approximately 85,000), despite 
+- It is interesting to note that there were more "long" trips for "casual" types (approximately 18,000) compared to "member" types (approximately 11,000), despite "member" types accruing twice the average trip duration when they do go over time.
 
 3. In terms of the map in this dashboard:
-	- More "short" trips occur in the Bronx (North of Manhattan), with "Brook Ave & E 138 St" Station accruing the most occurrences over Sep-Oct period. These Top 5 Stations with Short Trips should be investigated, whether there are faulty docks causing users to dock-undock.
-	- More "long" trips occur at Brooklyn and Queens, further away from the station usage epicentre of Manhattan. This is logical as users may need to ride to Manhattan, resulting in longer trips otherwise.
+- More "short" trips occur in the Bronx (North of Manhattan), with "Brook Ave & E 138 St" Station accruing the most occurrences over Sep-Oct period. These Top 5 Stations with Short Trips should be investigated, whether there are faulty docks causing users to dock-undock.
+- More "long" trips occur at Brooklyn and Queens, further away from the station usage epicentre of Manhattan. This is logical as users may need to ride to Manhattan, resulting in longer trips otherwise.
 
 ## Phenomena 2 - Trips Outside NYC
 The map in the 'Phenomena #2 - Trips Outside NYC" demonstrates the stations which fall outside the New York City jurisdiction.
