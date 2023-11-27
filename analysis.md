@@ -4,7 +4,9 @@
 ### Membership
 There are 4 options for the Citi Bike program: Single Ride, Day Pass, Citi Bike, Lyft Pink. The image below describes the pricing and inclusions of each option.
 
-![img]()
+|![Citi Bike Pricing](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/Citi%20Bike%20Pricing.png)|
+|:---:|
+|Citi Bike Pricing|
 
 For the purpose of this analysis:
 - Lyft Pink is disregarded.
@@ -24,7 +26,11 @@ There are 3 categories of "validity" for this analysis.
 ## Map
 1. The 'City Official Map' is the city official requested map, which provides an overview of all the stations for the current and previous month.
 
-This map provides observations regarding program usage in New York City neighbourhoods:
+|![NYC Boroughs](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC-boroughs.png)|
+|:---:|
+|New York City Boroughs|
+
+This map provides observations regarding program usage in New York City boroughs:
 - High usage in Manhattan and Brooklyn (particularly the NW area).
 - Some usage in Queens and Bronx.
 - No usage in Staten Island (potentially due to lack of stations in this area).
@@ -56,7 +62,7 @@ For all three stations, for both months, more trips had these stations as the de
 
 This is a key observation to make, to fully appreciate the breakdown of valid trips in the first phenomena.
 
-3. Due to the centrality of station concentration in Manhattan, it is reasonable to observe that all Top 10 Stations (both Start and End) are all within that neighbourhood.
+3. Due to the centrality of station concentration in Manhattan, it is reasonable to observe that all Top 10 Stations (both Start and End) are all within that borough.
 
 
 ## Phenomena 1 - Trip Validity and Membership
