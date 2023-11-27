@@ -26,9 +26,9 @@ There are 3 categories of "validity" for this analysis.
 ## Map
 1. The 'City Official Map' is the city official requested map, which provides an overview of all the stations for the current and previous month.
 
-|![NYC Boroughs](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC-boroughs.png)|
-|:---:|
-|New York City Boroughs|
+|![NYC Boroughs](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC-boroughs.png)|![City Official Map](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC%20Citibike%20Progam-1.png)
+|:---:|:---:|
+|New York City Boroughs|City Official Map|
 
 This map provides observations regarding program usage in New York City boroughs:
 - High usage in Manhattan and Brooklyn (particularly the NW area).
@@ -38,6 +38,10 @@ This map provides observations regarding program usage in New York City boroughs
 The general pattern is a high concentration in the Manhattan area, dispersing in a radial fashion - the further from Manhattan, the less engagement in the Citibike program.
 
 2. The 'Context Map - Above the 90th Percentile' page of the story confirms the pattern described above. It demonstrates that stations with counts above the 90th percentile (approximately 5000 trips) are mostly in Manhattan.
+
+|![Context Map](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC%20Citibike%20Progam-2.png)|
+|:---:|
+|Context Map - Above the 90th Percentile|
 
 The first phenomena explores the relationship between this fact as well as the trip validity (short, valid, long) and membership type (casual vs member).
 
@@ -56,6 +60,10 @@ The popularity of start and end stations are explored, to provide context in the
 	- West St & Chambers St
 	- Broadway & W 58 St
 
+|![Top Stations Comparison](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC%20Citibike%20Progam-3.png)|
+|:---:|
+|Top Stations Comparison|
+
 For all three stations, for both months, more trips had these stations as the destination than origin. This is evident in the 'Top Stations Comparison' page of the story.
 
 2. All Top 10 Stations (both Start and End) had usage between 8,000 and 15,000 trips per station. Assuming a 30-day month, for each of these stations, this would equate to approximately 250 to 500 trips per day.
@@ -67,6 +75,10 @@ This is a key observation to make, to fully appreciate the breakdown of valid tr
 
 ## Phenomena 1 - Trip Validity and Membership
 The map in the 'Phenomena #1 - Trip Validity and Membership' can be toggled to display "short trips" and "long trips" to further explore this phenomena.
+
+|![Phenomena 1](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC%20Citibike%20Progam-6.png)|
+|:---:|
+|Phenomena #1 - Trip Validity and Membership|
 
 1. The first table on the right, 'Trip Validity vs Membership' denotes the breakdown over the Sep-Oct period.
 
@@ -93,8 +105,23 @@ For "long" trips, "casual" types have more occurrences compared to "member" type
 ## Phenomena 2 - Trips Outside NYC
 The map in the 'Phenomena #2 - Trips Outside NYC" demonstrates the stations which fall outside the New York City jurisdiction.
 
+|![Phenomena 2](https://github.com/alyssahondrade/citibike-tableau/blob/main/images/NYC%20Citibike%20Progam-7.png)|
+|:---:|
+|Phenomena #2 - Trips Outside NYC|
+
 1. The panel on the right demonstrates there were 76 stations  used, whether as a start or end station, located outside New York City.
 
 2. The bar charts on the bottom all demonstrate the flow of bikes in and out of the city. Overall, there has been a net flow of bikes out of the city. This is demonstrated by the much larger count for "End Stations" rather than "Start Stations".
 
 These are key insights, as there needs to be a consideration for the number of bikes required to service the New York City jurisdiction itself. Users should not be discouraged from using the program in conjunction with neighbouring cities which also have stations. However, this metric must be tracked to ensure there are enough bikes available.
+
+## Next Steps
+1. Investigate the stations which have a high percentage of "short" and "long" trips. These stations could have faulty docks, which could unnecessarily impact user satisfaction negatively - especially users who are new to the system.
+
+2. Investigate whether improvements can be made in terms of user interface at the docks itself:
+- Better indication for users whether their bike has docked correctly.
+- Improved communication between the dock and the user's Citi Bike app.
+
+3. Investigate the roll out of stations to Staten Island, this may require coordination with the team at Jersey City to account for more equitable distribution of bikes to both cities.
+
+The dashboard and analysis provided is a snapshot of the latest data (Oct 2023) and the previous month (Sep 2023). The intent is to continue tracking the trends and metrics identified month to month (rolling), and determine whether there are other trends which could contribute to the improvement of the NYC Citi Bike program and its publicity.
