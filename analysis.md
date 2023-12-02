@@ -90,7 +90,7 @@ The first table on the right, 'Trip Validity vs Membership' denotes the breakdow
 
 For "valid" trips:
 - In September, 97.3% of the trips were valid for both "casual" and "member".
-- In October, there were more valid "member" trips (97.7%) compared to "member" trips (97.4%). This could be attributed to the "member" types experience and minimal "long" trip percentage (0.2% for both months).
+- In October, there were more valid "member" trips (97.7%) compared to "casual" trips (97.4%). This could be attributed to the "member" types experience and minimal "long" trip percentage (0.2% for both months).
 
 For "short" trips, there are more occurrences amongst "member" types (2.3% average) compared to "casual" (1.4% average). This could be attributed to the fact that there is no cost for "member" types when undocking a bike, whereas "casual" types pay $4.49 each time. This means they could be more willing to undock and dock a bike within a short period.
 
@@ -103,7 +103,6 @@ __Observation 2__
 The second table on the right, 'Cost of Invalid Trips' denotes the breakdown of the number of trips and cost to the customer.
 - It is logical that the cost per invalid trip for "short" trips for "casual" types cost $4, since the cost to undock is $4.49. This has cost users a collective $91,066 over the two-month period, simply by undocking and docking a bike without using the bike at all. This could have an impact on user satisfaction and program publicity, for example, causing unnecessary frustration when using the program for the first time.
 - In terms of "long" trips, "casual" types have paid an average of $53, totalling to $967,493 of overtime fees, whilst "member" types have paid an average of $68, totalling to $771,560 of overtime fees.
-- It is interesting to note that there were less "long" trips for "casual" types (approximately 28,000) compared to "member" types (approximately 85,000), despite 
 - It is interesting to note that there were more "long" trips for "casual" types (approximately 18,000) compared to "member" types (approximately 11,000), despite "member" types accruing twice the average trip duration when they do go over time.
 
 __Observation 3__
@@ -121,7 +120,7 @@ The map in the 'Phenomena #2 - Trips Outside NYC" demonstrates the stations whic
 
 __Observation 1__
 
-The panel on the right demonstrates there were 76 stations  used, whether as a start or end station, located outside New York City.
+The panel on the right demonstrates there were 76 stations used, whether as a start or end station, located outside New York City.
 
 __Observation 2__
 
